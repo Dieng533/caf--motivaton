@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    color: #ffffff;
+}
+.logo {
+    width: 150px;
+    margin-bottom: 20px;
+}
+.countdown {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(255, 255, 255);
+    width: 90%;
+    max-width: 400px;
+}
+.countdown h1 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ffffff;
+}
+.time {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.time-box {
+    background: #ff6f00;
+    padding: 10px 15px;
+    border-radius: 8px;
+    text-align: center;
+    width: 70px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+.time-box span {
+    display: block;
+    font-size: 28px;
+    font-weight: bold;
+    color: #000000;
+}
+.time-box label {
+    display: block;
+    font-size: 18px;
+    color: #ffffff;
+    margin-top: 5px;
+}
+@media (max-width: 480px) {
+    .time-box {
+        width: 60px;
+        padding: 8px 10px;
+    }
+    .time-box span {
+        font-size: 16px;
+    }
+    .time-box label {
+        font-size: 10px;
+    }
+}
