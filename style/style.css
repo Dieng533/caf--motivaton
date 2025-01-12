@@ -28,6 +28,10 @@ body {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #ffffff;
 }
+.countdown h3{
+    color: #ff6f00;
+    font-size: 15px;
+}
 .time {
     display: flex;
     justify-content: space-between;

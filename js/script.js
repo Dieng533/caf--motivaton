@@ -1,5 +1,5 @@
 function updateCountdown() {
-    const eventDate = new Date('2025-02-01T00:00:00');
+    const eventDate = new Date('2025-02-01T16:00:00');
     const now = new Date();
     const timeDiff = eventDate - now;
 
